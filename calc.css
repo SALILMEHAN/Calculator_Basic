@@ -1,0 +1,114 @@
+body {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cal {
+    width: 300px;
+    /* border: 2px solid; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+#cal_title {
+    /* border: 2px solid; */
+    width: 95%;
+    height: 25px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cal_title p {
+    margin-top: 4px;
+    font-weight: 800;
+}
+
+#prev {
+    /* border: 2px solid; */
+    width: 95%;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow: hidden;
+}
+
+#prev p {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#numpad {
+    /* border: 2px solid; */
+    width: 95%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 30px;
+    width: 24%;
+    text-align: center;
+    background-color: white;
+    border-color: transparent;
+    margin: 1px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+#zero {
+    width: 48.7%;
+}
+
+#div,
+#mul,
+#minus,
+#plus,
+#equal_to {
+    background-color: rgb(210, 1, 1);
+    color: azure;
+}
+
+#div:hover {
+    background-color: brown;
+}
+
+#mul:hover {
+    background-color: brown;
+}
+
+#minus:hover {
+    background-color: brown;
+}
+
+#plus:hover {
+    background-color: brown;
+}
+
+#equal_to:hover {
+    background-color: brown;
+}
